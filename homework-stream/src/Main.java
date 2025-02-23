@@ -59,6 +59,7 @@ public class Main {
 
         //Задание 12
         task12();
+
     }
 
     private static void task1() {
@@ -78,7 +79,7 @@ public class Main {
         long expected = 3L;
 
         //актуальный результат
-        long actual = TaskStream.task2(books);
+        long actual = TaskStream.task2(Main.books);
 
         //тест
         Assertion.assertEquals(expected, actual);
@@ -111,6 +112,7 @@ public class Main {
         //тест
         Assertion.assertEquals(expectedMap, actualMap);
     }
+
 
     private static void task5() {
         //ожидаемый результат
